@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "jvm-diagnostics": {
+            "command": "java",
+            "args": [
+                "-jar",
+              "/Users/brunoborges/work/jvm-diagnostics-mcp/target/azure-cli-mcp.jar"
+            ]
+        }
+    }
+}

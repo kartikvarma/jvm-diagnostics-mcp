@@ -1,10 +1,10 @@
-package io.github.jdubois.azureclimcp;
+package io.github.brunoborges.jvm;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AzureCliMcpApplicationTests {
+class JVMDiagnosticsMcpApplicationTests {
 
 	@Test
 	void contextLoads() {

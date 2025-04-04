@@ -7,12 +7,12 @@
 		<version>3.4.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.github.jdubois</groupId>
-	<artifactId>azure-cli-mcp</artifactId>
+	<groupId>io.github.brunoborges</groupId>
+	<artifactId>jvm-diagnostics-mcp</artifactId>
 	<version>0.0.8-SNAPSHOT</version>
 	<name>azure-cli-mcp</name>
-	<description>Talk with Azure using MCP</description>
-	<url>https://github.com/jdubois/azure-cli-mcp</url>
+	<description>Talk with JVM using MCP</description>
+	<url>https://github.com/brunoborges/jvm-diagnostics-mcp</url>
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -22,13 +22,13 @@
 	</licenses>
 	<developers>
 		<developer>
-			<name>Julien Dubois</name>
-			<url>https://www.julien-dubois.com</url>
+			<name>Bruno Borges</name>
+			<url>https://www.brunoborges.io</url>
 		</developer>
 	</developers>
 	<scm>
-		<url>https://github.com/jdubois/azure-cli-mcp</url>
-		<connection>scm:git:https://github.com/jdubois/azure-cli-mcp.git</connection>
+		<url>https://github.com/brunoborges/jvm-diagnostics-mcp</url>
+		<connection>scm:git:https://github.com/brunoborges/jvm-diagnostics-mcp.git</connection>
 		<tag>HEAD</tag>
 	</scm>
 	<properties>
@@ -82,7 +82,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>3.0.1</version>
+				<version>3.1.1</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 				</configuration>
