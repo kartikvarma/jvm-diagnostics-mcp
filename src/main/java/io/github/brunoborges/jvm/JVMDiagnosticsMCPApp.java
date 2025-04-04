@@ -10,6 +10,8 @@ import org.springframework.context.annotation.Bean;
 public class JVMDiagnosticsMCPApp {
 
     public static void main(String[] args) {
+        // say app is running
+        System.out.println("JVMDiagnosticsMCPApp is running...");
         SpringApplication.run(JVMDiagnosticsMCPApp.class, args);
     }
 

@@ -10,7 +10,7 @@
 	<groupId>io.github.brunoborges</groupId>
 	<artifactId>jvm-diagnostics-mcp</artifactId>
 	<version>0.0.8-SNAPSHOT</version>
-	<name>azure-cli-mcp</name>
+	<name>jvm-diagnostics-mcp</name>
 	<description>Talk with JVM using MCP</description>
 	<url>https://github.com/brunoborges/jvm-diagnostics-mcp</url>
 	<licenses>
@@ -64,7 +64,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>azure-cli-mcp</finalName>
+		<finalName>jvm-diagnostics-mcp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.graalvm.buildtools</groupId>

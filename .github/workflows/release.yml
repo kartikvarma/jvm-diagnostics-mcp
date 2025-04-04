@@ -41,7 +41,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: azure-cli-mcp.jar
+          file: jvm-diagnostics-mcp.jar
           file_glob: true
           tag: ${{ github.ref }}
           overwrite: true
@@ -51,7 +51,7 @@ jobs:
     permissions:
       packages: write
     env:
-      DOCKER_IMAGE_NAME: 'docker.pkg.github.com/jdubois/azure-cli-mcp'
+      DOCKER_IMAGE_NAME: 'docker.pkg.github.com/brunoborges/jvm-diagnostics-mcp'
     steps:
       - name: Set Tag name environment variable
         run: echo "TAG_NAME=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV

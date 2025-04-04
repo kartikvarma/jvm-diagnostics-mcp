@@ -4,7 +4,7 @@
             "command": "java",
             "args": [
                 "-jar",
-              "/Users/brunoborges/work/jvm-diagnostics-mcp/target/azure-cli-mcp.jar"
+              "/Users/brunoborges/work/jvm-diagnostics-mcp/target/jvm-diagnostics-mcp.jar"
             ]
         }
     }
